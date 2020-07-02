@@ -264,15 +264,21 @@ Contact Box
 ========================================
 */
 .contact-box {
-  border: 2px solid rgb(102, 153, 204);
+  border: 2px solid black;
   height: 149px;
   width: 300px;
   margin-bottom: 24px;
+  padding:0px!important; 
+  background-image:url(" http://content.pimp-my-profile.com/i57/5/10/29/ct_d0e63daa2205.png "); 
+  background-attachment:scroll; 
+  background-position:center center; 
+  background-repeat:no-repeat; 
+  background-color:transparent;
 }
 
 .contact-box h2 {
   color: white;
-  background-color: rgb(102, 153, 204);
+  background-color: black;
   height: 17px;
   padding-left: 10px;
 }
@@ -649,4 +655,9 @@ footer small {
   height: 100%;
   font-size: 8pt;
   font-weight: normal;
+}
+* {cursor: url(https://cur.cursors-4u.net/games/gam-11/gam1059.cur), auto !important;}
+
+.about-me {
+  font-size: 1.1rem;
 }
